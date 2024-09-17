@@ -30,7 +30,7 @@ function generar (){
         console.log(typeof num_valor);
         console.log('La cantidad de caracteres actual es:' + valor);
         if(num_valor < 8){
-            alert('La cantidad de caracteres debe ser mayor a 8');
+            alert('La cantidad de caracteres debe ser mínimo 8');
             contraseña.value='';
         } else{
 
